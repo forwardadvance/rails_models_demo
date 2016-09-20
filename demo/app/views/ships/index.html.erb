@@ -1,0 +1,9 @@
+<h1>Hello from the Ships</h1>
+
+<% @ships.each do |ship| %>
+  <li>
+    <%= link_to ship do %>
+      <%= ship.name %>
+    <% end %>
+  </li>
+<% end %>
